@@ -20,15 +20,15 @@ namespace _4994880_QueryString
 			Response.Redirect
 				(
 				"QueryStrings.aspx" +
-				"?ddlCategory" + ddlCategory.SelectedValue +
-				"?ddlSupplier" + ddlSupplier.SelectedValue +
-				"&strProduct" + txtProduct.Text +
-				"&strDescription" + txtDescription.Text +
-				"&strImage" + txtImage.Text +
-				"&decPrice" + txtPrice.Text +
-				"bytNumberInStock" + txtNumberInStock.Text +
-				"bytNumberOnOrder" + txtNumberOnOrder.Text +
-				"bytReorderLevel" + txtReorderLevel.Text
+				"?ddlCategory=" + ddlCategory.SelectedValue +
+				"?ddlSupplier=" + ddlSupplier.SelectedValue +
+				"&strProduct=" + txtProduct.Text +
+				"&strDescription=" + txtDescription.Text +
+				"&strImage=" + txtImage.Text +
+				"&decPrice=" + txtPrice.Text +
+				"&bytNumberInStock=" + txtNumberInStock.Text +
+				"&bytNumberOnOrder=" + txtNumberOnOrder.Text +
+				"&bytReorderLevel=" + txtReorderLevel.Text
 				);
         }
     }
